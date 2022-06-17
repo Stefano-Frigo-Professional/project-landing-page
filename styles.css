@@ -88,15 +88,26 @@ body {
     align-items: center;
 }
 
-.random-images {
+.random-captioned-images {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.random-captioned-images .captioned-image {
+    display: flex;
+    flex-direction: column;
 }
 
-.random-images img{
+.random-captioned-images .captioned-image p{
+    max-width: 145px;
+    text-align: center;
+}
+
+.random-captioned-images .captioned-image img {
     border: 4px solid blueviolet;
     border-radius: 16px;
     width: 125px;
     height: 125px;
+    align-self: center;
 }
