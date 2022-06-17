@@ -81,3 +81,22 @@ body {
     border-color: white;
     border-style: groove;
 }
+
+.random-information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.random-images img{
+    border: 4px solid blueviolet;
+    border-radius: 16px;
+    width: 125px;
+    height: 125px;
+}
