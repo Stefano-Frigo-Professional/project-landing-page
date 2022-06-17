@@ -10,14 +10,17 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
     padding: 10px;
 }
 
-.header h1, .header a {
+.header h1 {
     color: #F9FAF8;
+}
+
+.header a {
+    color: #e5e7eb;
 }
 
 .header h1 {
@@ -28,4 +31,53 @@ body {
 .header-right {
     display:flex;
     gap:15px;
+}
+
+.top-section {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.header, .top-section {
+    background-color: #1F2937;
+}
+
+.top-left {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.top-left h1, .top-left p {
+    max-width: 300px;
+}
+
+.top-left h1 {
+    font-size: 48px;
+    color:#F9FAF8;
+    margin: 0;
+}
+
+.top-left p {
+    margin-top:5px;
+    font-size: 20px;
+    color:#bfc4ca
+}
+
+.dogs-image {
+    width:500px;
+    height: auto;
+}
+
+.sign-up-button {
+    color:white;
+    background-color: #3882f6;
+    width:150px;
+    height: 45px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: groove;
 }
