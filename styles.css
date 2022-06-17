@@ -38,8 +38,8 @@ body {
     flex:1, 1, auto;
     justify-content: space-around;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .header, .top-section {
@@ -87,8 +87,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top:20px;
-    margin-bottom: 70px;
+    padding-top:35px;
+    margin-bottom: 35px;
 }
 
 .random-captioned-images {
@@ -120,6 +120,8 @@ body {
     flex-direction: column;
     padding: 125px;
     padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
     background-color: #e5e7eb;
 }
 
@@ -132,4 +134,51 @@ body {
 .quote-and-author .author {
     margin-top: 0;
     align-self: flex-end;
+}
+
+.call-to-action-section {
+    align-self: center;
+    border: 15px 150px;
+    border-radius: 5px;
+    padding: 25px 125px;
+    margin-bottom: 35px;
+    background-color: #3882f6;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px
+}
+
+.call-to-action-section .left-section{
+    display:flex;
+    flex-direction: column;
+}
+
+.call-to-action-section .left-section h1, .call-to-action-section .left-section h2 {
+    color:white;
+}
+
+.call-to-action-section .left-section h1{
+    font-size: 20px;
+    margin: 0;
+}
+
+.call-to-action-section .left-section h2{
+    font-size: 13px;
+}
+
+.sign-up-button.white-border-variant {
+    border-color: white;
+    width:70px;
+    height: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: white;
 }
