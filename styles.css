@@ -35,9 +35,10 @@ body {
 
 .top-section {
     display:flex;
+    flex:1, 1, auto;
     justify-content: space-around;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 
@@ -47,12 +48,13 @@ body {
 
 .top-left {
     display:flex;
+    flex:1, 1, auto;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
 .top-left h1, .top-left p {
-    max-width: 300px;
+    max-width: 340px;
 }
 
 .top-left h1 {
@@ -68,8 +70,7 @@ body {
 }
 
 .dogs-image {
-    width:500px;
-    height: auto;
+    max-width:450px;
 }
 
 .sign-up-button {
@@ -86,6 +87,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top:20px;
+    margin-bottom: 70px;
 }
 
 .random-captioned-images {
@@ -110,4 +113,23 @@ body {
     width: 125px;
     height: 125px;
     align-self: center;
+}
+
+.quote-and-author {
+    display: flex;
+    flex-direction: column;
+    padding: 125px;
+    padding-top: 35px;
+    background-color: #e5e7eb;
+}
+
+.quote-and-author .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-and-author .author {
+    margin-top: 0;
+    align-self: flex-end;
 }
